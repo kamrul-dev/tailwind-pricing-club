@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowNarrowRightIcon, CheckCircleIcon } from '@heroicons/react/solid'
+import { ArrowNarrowRightIcon } from '@heroicons/react/solid'
 import Benefit from '../Benefit/Benefit';
 const PricingOption = (props) => {
     const { name, price, benefits } = props.option;
